@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		02024E60283D7CBB0064224A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02024E5F283D7CBB0064224A /* Extensions.swift */; };
 		6169679D2A84F8700037FEEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6169679C2A84F8700037FEEE /* GoogleService-Info.plist */; };
+		617367642A8D0E8D00C7EE23 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617367632A8D0E8D00C7EE23 /* String+Ex.swift */; };
 		61C5024B2A86472A00C9ED3E /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C5024A2A86472A00C9ED3E /* MessageInputView.swift */; };
 		61C5024E2A86626000C9ED3E /* MessageInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C5024D2A86626000C9ED3E /* MessageInputViewModel.swift */; };
 		9407EDDA284ADE1F00C1C334 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9407EDD9284ADE1F00C1C334 /* User.swift */; };
@@ -81,6 +82,7 @@
 /* Begin PBXFileReference section */
 		02024E5F283D7CBB0064224A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6169679C2A84F8700037FEEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		617367632A8D0E8D00C7EE23 /* String+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
 		61C5024A2A86472A00C9ED3E /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
 		61C5024D2A86626000C9ED3E /* MessageInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputViewModel.swift; sourceTree = "<group>"; };
 		9407EDD9284ADE1F00C1C334 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				9474F20E283326C500CDE4DD /* ApiService.swift */,
 				94CD1969283E666900973B93 /* EmojiManager.swift */,
 				9474F211283327C200CDE4DD /* Helpers.swift */,
+				617367632A8D0E8D00C7EE23 /* String+Ex.swift */,
 				94A3F7C928386B2100C48E79 /* Config.swift */,
 				9474F216283531A200CDE4DD /* Log.swift */,
 				94867142283EC9950093C7A4 /* Actions.swift */,
@@ -378,6 +381,7 @@
 				02024E60283D7CBB0064224A /* Extensions.swift in Sources */,
 				948671472841B0B20093C7A4 /* NotificationContent.swift in Sources */,
 				9474F1F92830835400CDE4DD /* Store.swift in Sources */,
+				617367642A8D0E8D00C7EE23 /* String+Ex.swift in Sources */,
 				9474F212283327C200CDE4DD /* Helpers.swift in Sources */,
 				9474F217283531A300CDE4DD /* Log.swift in Sources */,
 				9474F20928331F3A00CDE4DD /* NotificationListView.swift in Sources */,

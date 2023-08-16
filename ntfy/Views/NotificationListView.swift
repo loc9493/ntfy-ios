@@ -354,8 +354,15 @@ struct NotificationRowView: View {
                     .bold()
                     .padding([.bottom], 2)
             }
-            Text(notification.formatMessage())
-                .font(.body)
+            let result = notification.formatMessage().prepareUrlFormat()
+            if let markdown = try? AttributedString(markdown: result) {
+                Text(markdown)
+                    .font(.body)
+            } else {
+                Text(result)
+                    .font(.body)
+            }
+            
             if !notification.nonEmojiTags().isEmpty {
                 Text("Tags: " + notification.nonEmojiTags().joined(separator: ", "))
                     .font(.subheadline)

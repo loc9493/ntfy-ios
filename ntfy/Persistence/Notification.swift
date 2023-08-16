@@ -32,6 +32,7 @@ extension Notification {
         if !emojiTags.isEmpty {
             return emojiTags.joined(separator: "") + " " + message
         }
+        
         return message
     }
     
